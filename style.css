@@ -153,6 +153,44 @@ hr{
     margin: 0;
 }
 
+.nabt{
+    margin-bottom: 45px;
+}
+
+.about_wrap {
+    display: flex;
+    margin-top: 45px;
+    flex-wrap: wrap;
+}
+
+.about_skills_wrap {
+    display: flex;
+    margin-top: 45px;
+}
+
+.about_txt_wrap {
+    display: block;
+    margin-left: 65px;
+}
+
+
+.about_img {
+    display: block;
+}
+
+.p {
+    margin-bottom: 23px;
+}
+
+.p-3 {
+    margin-top: 50px;
+}
+
+.link {
+    text-decoration: underline;
+    color: #000;
+}
+
 /* skills */
 .skills{
     text-align: center;
