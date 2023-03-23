@@ -321,6 +321,7 @@ hr{
     text-decoration: none;
     margin-bottom: 30px;
     transition: .2s ease-in-out;
+    animation: animBtns1 2s;
 }
 
 .contacts_link:hover {
@@ -333,10 +334,12 @@ hr{
     font-size: 18px;
     text-decoration: none;
     margin: 0;
+    animation: animBtns2 2s;
 }
 
 .contacts_icon {
     margin-right: 10px;
+    animation: animBtns2 2.5s;
 }
 
 .a {
@@ -440,4 +443,28 @@ footer{
     opacity: 100%;
     text-decoration: none;
     scale: 1.1;
+}
+
+@keyframes animBtns1 {
+    from {
+       height: 0px;
+    }
+
+    to {
+        height: 60px;
+    }
+}
+
+@keyframes animBtns2 {
+    0% {
+        opacity: 0%;
+    }
+
+    50% {
+       opacity: 0%;
+    }
+
+    100% {
+        opacity: 100%;
+    }
 }
