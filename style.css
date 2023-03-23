@@ -293,6 +293,77 @@ hr{
     margin-top: 75px;
 }
 
+
+/* Contacts */
+.btns_wrapper{
+    max-width: 590px;
+    max-height: 240px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.cname {
+    font-size: 47px;
+    margin: 75px 0 45px;
+    text-align: center;
+}
+
+.contacts_link {
+    flex-wrap: wrap;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    width: 270px;
+    height: 60px;
+    justify-content: center;
+    text-decoration: none;
+    margin-bottom: 30px;
+    transition: .2s ease-in-out;
+}
+
+.contacts_link:hover {
+    scale: 1.05;
+}
+
+.contacts_link .nav_link {
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 18px;
+    text-decoration: none;
+    margin: 0;
+}
+
+.contacts_icon {
+    margin-right: 10px;
+}
+
+.a {
+    border-radius: 10px;
+    background: #339AF0;
+}
+.b {
+    border-radius: 10px;
+    background: #004CBD;
+}
+.c {
+    border-radius: 10px;
+    background: #F26F3C;
+}
+.d {
+    border-radius: 10px;
+    background: #BF1717;
+}
+.e {
+    border-radius: 10px;
+    background: #6A52FC;
+}
+.f {
+    border-radius: 10px;
+    background: #36007A;
+}
+
 /* footer */
 footer{
     text-align: center;
@@ -349,6 +420,14 @@ footer{
     color: #828282;
     font-weight: normal;
     font-size: 14px;
+}
+
+.ccr{
+    color: #828282;
+    font-weight: normal;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 45px;
 }
 
 .icons{
