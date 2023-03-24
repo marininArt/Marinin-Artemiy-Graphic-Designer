@@ -4,11 +4,20 @@ body{
     padding: 0;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 /* container */
 .container{
     margin: 0 auto;
-    width: 945px;
+    max-width: 945px;
     height: 100%;
+    flex-wrap: wrap;
+}
+
+.about .container {
+    text-align: center;
 }
 
 /* nav */
@@ -22,7 +31,7 @@ body{
 .nav_link{
     font-weight: bold;
     color: #828282;
-    font-size: 18px;
+    font-size: 125%;
     text-decoration: none;
     margin: 0;
     transition: .2s linear;
@@ -32,13 +41,13 @@ body{
     font-weight: bold;
     color: #000;
     scale: 1.03;
-    font-size: 18px;
+    font-size: 125%;
     text-decoration: none;
     margin: 0;
 }
 
 hr{
-   height: 0px;
+    height: 0px;
     border: 1px solid #828282;
 }
 
@@ -51,12 +60,12 @@ hr{
 }
 
 .name{
-   font-size: 47px;
+   font-size: 330%;
    margin: 0;
 }
 
 .who{
-    font-size: 18px;
+    font-size: 125%;
     font-weight: normal;
 }
 
@@ -77,14 +86,14 @@ hr{
     text-transform: uppercase;
     margin: 0;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 110%;
     color: #828282;
 }
 .language_ru:hover{
     text-transform: uppercase;
     margin: 0;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 110%;
     transition: .2s linear;
     color: #000;
     cursor: pointer;
@@ -93,7 +102,7 @@ hr{
     text-transform: uppercase;
     margin: 0;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 110%;
     transition: .2s linear;
     color: rgb(31, 13, 13); 
 }
@@ -102,14 +111,14 @@ hr{
     text-transform: uppercase;
     margin: 0;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 110%;
     color: #828282;
 }
 .language_eng:hover{
     text-transform: uppercase;
     margin: 0;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 110%;
     transition: .2s linear;
     color: #000;
     cursor: pointer;
@@ -118,18 +127,19 @@ hr{
     text-transform: uppercase;
     margin: 0;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 110%;
     transition: .2s linear;
     color: rgb(31, 13, 13);
 }
 
 .denis_pht{
-    margin: 0 0 105px 0;
+    max-width: 100%;
+    margin: 0 auto 105px;
 }
 
 /* about */
 .about{
-    padding-top: 120px;
+    padding: 120px 15px 0;
     height: 506px;
     background: #f6f6f6;
     text-align: center;
@@ -138,35 +148,77 @@ hr{
 
 .about_title{
     font-weight: bold;
-    font-size: 34px;
+    font-size: 240%;
     margin: 0 0 20px 0;
 }
 
 .about_txt{
     font-weight: normal;
-    font-size: 18px;
+    font-size: 125%;
     margin: 0 0 50px 0;
 }
 .about_txt:last-child{
     font-weight: normal;
-    font-size: 18px;
+    font-size: 125%;
     margin: 0;
+}
+
+.nabt{
+    margin-bottom: 45px;
+}
+
+.about_wrap {
+    display: flex;
+    margin-top: 45px;
+}
+
+.continue {
+    display: block;
+}
+
+.about_skills_wrap {
+    display: flex;
+    margin-top: 45px;
+}
+
+.about_txt_wrap {
+    display: block;
+    margin-left: 65px;
+}
+
+
+.about_img {
+    display: block;
+}
+
+.p {
+    margin-bottom: 23px;
+}
+
+.p-3 {
+    margin-top: 50px;
+}
+
+.link {
+    text-decoration: underline;
+    color: #000;
 }
 
 /* skills */
 .skills{
+    padding: 0 15px;
     text-align: center;
 }
 
 .skills_title{
-    font-size: 34px;
+    font-size: 240%;
     font-weight: bold;
     margin: 0 0 69px 0;
 }
 
 .skills_sub{
     font-weight: normal;
-    font-size: 18px;
+    font-size: 125%;
     margin: 0 0 83px 0;
 }
 
@@ -186,117 +238,464 @@ hr{
 
 .prog_img{
     margin: 0 0 24px 0;
+    max-width: 90%;
 }
 
 .prog_about{
     font-weight: bold;
-    font-size: 14px;
+    font-size: 100%;
     color: #828282;
     margin: 0 0 40px 0;
 }
 
+.stars {
+    max-width: 100%;
+}
+
 .stars-fig{
     margin-top: 17px;
+    max-width: 100%;
 }
 
 /* portfolio */
 .portfolio{
     width: 100%;
-    height: 2253px;
+    height: 100%;
     margin: 0 auto;
     padding: 103px 0 0 0;
     background: #f6f6f6;
     text-align: center;
+    padding-bottom: 106px;
 }
 
 .potfolio_title{
     margin: 0 0 47px 0;
     font-weight: bold;
-    font-size: 34px;
+    font-size: 240%;
 }
 
 .portfolio_photo{
+    text-align: center;
+    max-width: 90%;
     margin-bottom: 45px;
 }
 
 .portfolio_link{
     display: block;
     font-weight: normal;
-    font-size: 18px;
+    font-size: 125%;
     margin: 0 0 99px 0;
     color: #070707;
+    transition: .15s linear;
 }
 .portfolio_link:hover{
     display: block;
     font-weight: normal;
-    font-size: 18px;
+    font-size: 125%;
     margin: 0 0 99px 0;
     color: #c4c4c4;
-    transition: .1s linear;
+}
+
+.portfolio_imgs_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.portfolio_img {
+    width: 423px;
+}
+
+.img_content {
+    max-width: 100%;
+    text-align: center;
+    margin: 0 auto 45px;
+}
+
+.img_content .portfolio_link {
+    margin: 23px 0;
+}
+
+
+/* Contacts */
+.btns_wrapper{
+    max-width: 590px;
+    max-height: 240px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.cname {
+    font-size: 330%;
+    margin: 75px 0 45px;
+    text-align: center;
+}
+
+.contacts_link {
+    flex-wrap: wrap;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    width: 270px;
+    height: 60px;
+    justify-content: center;
+    text-decoration: none;
+    margin-bottom: 30px;
+    transition: .2s ease-in-out;
+    animation: animBtns1 2s;
+}
+
+.contacts_link:hover {
+    scale: 1.05;
+}
+
+.contacts_link .nav_link {
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 125%;
+    text-decoration: none;
+    margin: 0;
+    animation: animBtns2 2s;
+}
+
+.contacts_icon {
+    margin-right: 10px;
+    animation: animBtns2 2.5s;
+}
+
+.a {
+    border-radius: 10px;
+    background: #339AF0;
+}
+.b {
+    border-radius: 10px;
+    background: #004CBD;
+}
+.c {
+    border-radius: 10px;
+    background: #F26F3C;
+}
+.d {
+    border-radius: 10px;
+    background: #BF1717;
+}
+.e {
+    border-radius: 10px;
+    background: #6A52FC;
+}
+.f {
+    border-radius: 10px;
+    background: #36007A;
 }
 
 /* footer */
 footer{
+    margin: 0 auto;
     text-align: center;
     padding: 114px 0 123px 0;
 }
 
 .contacts{
     font-weight: bold;
-    font-size: 34px;
+    font-size: 240%;
     margin: 0 0 20px 0;
 }
 
 .subt{
     font-weight: normal;
-    font-size: 18px;
+    font-size: 125%;
     margin: 0 0 29px 0;
     color: #070707;
 }
 
 .btn{
+    display: inline-block;
     text-align: center;
     background: #000;
     color: #fff;
     font-weight: bold;
-    font-size: 18px;
-    width: 180px;
-    height: 42px;
+    font-size: 125%;
     border-radius: 50px;
     margin: 0 0 55px 0;
+    text-decoration: none;
     transition: .2s linear;
+    padding: 14px 44px;
 }
 .btn:hover{
     background: #000;
     color: rgb(139, 139, 139);
     font-weight: bold;
-    font-size: 18px;
-    width: 180px;
-    height: 42px;
+    font-size: 125%;
+    padding: 14px 44px;
     border-radius: 50px;
     margin: 0 0 55px 0;
+    text-decoration: none;
     cursor: pointer;
+    scale: 1.1;
 }
 
 .social{
     display: flex;
-    width: 342px;
+    max-width: 342px;
     justify-content: space-between;
     margin: 0 auto 20px auto;
+    padding: 0 15px;
 }
 
 .cr{
     color: #828282;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 100%;
+}
+
+.ccr{
+    color: #828282;
+    font-weight: normal;
+    font-size: 100%;
+    text-align: center;
+    margin-top: 45px;
 }
 
 .icons{
+    opacity: 60%;
     text-decoration: none;
     transition: all .2s ease;
 }
 
 .icons:hover{
+    opacity: 100%;
     text-decoration: none;
     scale: 1.1;
 }
+
+@keyframes animBtns1 {
+    0% {
+        opacity: 0%;
+       height: 0px;
+    }
+
+    20%{
+        opacity: 0%;
+    }
+
+    100% {
+        opacity: 100%;
+        height: 60px;
+    }
+}
+
+@keyframes animBtns2 {
+    0% {
+        opacity: 0%;
+    }
+
+    50% {
+       opacity: 0%;
+    }
+
+    100% {
+        opacity: 100%;
+    }
+}
+
+.mobile_pht {
+    display: none;
+    max-width: 100%;
+}
+
+.social_icon {
+    height: 40px;
+    max-width: 100%;
+}
+
+/* Медиазапросы */
+@media screen and (max-width: 1200px) {
+    .container {
+        max-width: 950px;
+        flex-wrap: wrap;
+        padding: 0 15px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .container {
+        max-width: 750px;
+        flex-wrap: wrap;
+        padding: 0 15px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        margin: 0 auto;
+        max-width: 100%;
+        flex-wrap: wrap;
+        padding: 0 15px;
+    }
+    
+    .denis_pht {
+        margin: 0 auto;
+    }
+
+    .portfolio_photo{
+        text-align: center;
+        max-width: 90%;
+        margin-bottom: 45px;
+    }
+
+    .portfolio{
+        max-width: 100%;
+        height: 100%;
+        margin: 0 auto;
+        padding: 103px 0 0 0;
+        background: #f6f6f6;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+
+    .about_txt{
+        font-size: 100%;
+        margin-bottom: 23px;
+    }
+    .about_txt:last-child {
+        font-size: 100%;
+        margin-bottom: 0;
+    }
+    .p-3 {
+        margin-top: 23px;
+    }
+    
+    .nabt {
+        margin-bottom: 25px;
+    }
+
+    .ccr {
+        color: #828282;
+        font-weight: normal;
+        font-size: 100%;
+        text-align: center;
+        margin: 45px auto 0;
+    }
+
+    .portfolio_img {
+        max-width: 90%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        margin: 0 auto;
+        max-width: none;
+        padding: 0 15px;
+    }
+
+    .about{
+        height: 420px;
+        padding-top: 60px;
+        margin-bottom: 60px;
+    }
+
+    .about_wrap {
+        margin-top: 25px;
+    }
+
+    .about_img {
+        display: none;
+    }
+
+    .about_txt_wrap {
+        margin-left: 0;
+    }
+
+    .about_skills_wrap {
+        margin-top: 25px;
+    }
+
+    .skills_title {
+        margin-bottom: 15px;
+    }
+
+    .skills_sub {
+        margin-bottom: 45px;
+    }
+
+    .programs_wrap {
+        margin-bottom: 90px;
+    }
+
+    .portfolio {
+        padding-top: 40px;
+    }
+
+    .nav {
+        height: 48px;
+    }
+
+    .nav_link{
+        font-size: 10px;
+    }
+
+    .name {
+        font-size: 29px;
+    }
+
+    .name_con {
+        display: block;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .who {
+        margin: 10px 0;
+    }
+
+    .denis_pht {
+        display: none;
+    }
+
+    .mobile_pht {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .language {
+        display: none;
+    }
+
+    .portfolio_img, .portfolio_photo {
+        max-width: 90%;
+        margin-bottom: 10px;
+    } 
+
+    .img_content .portfolio_link {
+        margin: 0;
+        font-size: 13px;
+    }
+    .portfolio_link:last-child {
+        margin: 0;
+        font-size: 13px;
+    }
+
+    .cname {
+        font-size: 29px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    .btns_wrapper {
+        display: flex;
+        justify-content: center;
+    }
+
+    footer {
+        padding: 50px 0;
+    }
+
+    .ccr {
+        margin-top: 20px;
+    }
+}
+
