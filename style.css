@@ -289,10 +289,6 @@ hr{
     margin: 23px 0;
 }
 
-.img_content:first-child, .img_content:nth-child(2) {
-    margin-top: 75px;
-}
-
 
 /* Contacts */
 .btns_wrapper{
