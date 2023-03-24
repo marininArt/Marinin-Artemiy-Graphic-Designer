@@ -154,12 +154,12 @@ hr{
 
 .about_txt{
     font-weight: normal;
-    font-size: 125%;
+    font-size: 18px;
     margin: 0 0 50px 0;
 }
 .about_txt:last-child{
     font-weight: normal;
-    font-size: 125%;
+    font-size: 18px;
     margin: 0;
 }
 
@@ -188,6 +188,7 @@ hr{
 
 
 .about_img {
+    width: 317px;
     display: block;
 }
 
