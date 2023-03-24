@@ -13,6 +13,11 @@ body{
     margin: 0 auto;
     max-width: 945px;
     height: 100%;
+    flex-wrap: wrap;
+}
+
+.about .container {
+    text-align: center;
 }
 
 /* nav */
@@ -26,7 +31,7 @@ body{
 .nav_link{
     font-weight: bold;
     color: #828282;
-    font-size: 1.25rem;
+    font-size: 125%;
     text-decoration: none;
     margin: 0;
     transition: .2s linear;
@@ -36,7 +41,7 @@ body{
     font-weight: bold;
     color: #000;
     scale: 1.03;
-    font-size: 1.25rem;
+    font-size: 125%;
     text-decoration: none;
     margin: 0;
 }
@@ -55,12 +60,12 @@ hr{
 }
 
 .name{
-   font-size: 3.3rem;
+   font-size: 330%;
    margin: 0;
 }
 
 .who{
-    font-size: 1.25rem;
+    font-size: 125%;
     font-weight: normal;
 }
 
@@ -81,14 +86,14 @@ hr{
     text-transform: uppercase;
     margin: 0;
     font-weight: bold;
-    font-size: 1.1rem;
+    font-size: 110%;
     color: #828282;
 }
 .language_ru:hover{
     text-transform: uppercase;
     margin: 0;
     font-weight: bold;
-    font-size: 1.1rem;
+    font-size: 110%;
     transition: .2s linear;
     color: #000;
     cursor: pointer;
@@ -97,7 +102,7 @@ hr{
     text-transform: uppercase;
     margin: 0;
     font-weight: bold;
-    font-size: 1.1rem;
+    font-size: 110%;
     transition: .2s linear;
     color: rgb(31, 13, 13); 
 }
@@ -106,14 +111,14 @@ hr{
     text-transform: uppercase;
     margin: 0;
     font-weight: bold;
-    font-size: 1.1rem;
+    font-size: 110%;
     color: #828282;
 }
 .language_eng:hover{
     text-transform: uppercase;
     margin: 0;
     font-weight: bold;
-    font-size: 1.1rem;
+    font-size: 110%;
     transition: .2s linear;
     color: #000;
     cursor: pointer;
@@ -122,26 +127,19 @@ hr{
     text-transform: uppercase;
     margin: 0;
     font-weight: bold;
-    font-size: 1.1rem;
+    font-size: 110%;
     transition: .2s linear;
     color: rgb(31, 13, 13);
 }
 
 .denis_pht{
+    max-width: 100%;
     margin: 0 auto 105px;
 }
 
 /* about */
 .about{
-    padding-top: 120px;
-    height: 506px;
-    background: #f6f6f6;
-    text-align: center;
-    margin-bottom: 91px;
-}
-
-.about{
-    padding-top: 120px;
+    padding: 120px 15px 0;
     height: 506px;
     background: #f6f6f6;
     text-align: center;
@@ -150,18 +148,18 @@ hr{
 
 .about_title{
     font-weight: bold;
-    font-size: 2.4rem;
+    font-size: 240%;
     margin: 0 0 20px 0;
 }
 
 .about_txt{
     font-weight: normal;
-    font-size: 1.25rem;
+    font-size: 125%;
     margin: 0 0 50px 0;
 }
 .about_txt:last-child{
     font-weight: normal;
-    font-size: 1.25rem;
+    font-size: 125%;
     margin: 0;
 }
 
@@ -208,18 +206,19 @@ hr{
 
 /* skills */
 .skills{
+    padding: 0 15px;
     text-align: center;
 }
 
 .skills_title{
-    font-size: 2.4rem;
+    font-size: 240%;
     font-weight: bold;
     margin: 0 0 69px 0;
 }
 
 .skills_sub{
     font-weight: normal;
-    font-size: 1.25rem;
+    font-size: 125%;
     margin: 0 0 83px 0;
 }
 
@@ -239,17 +238,23 @@ hr{
 
 .prog_img{
     margin: 0 0 24px 0;
+    max-width: 90%;
 }
 
 .prog_about{
     font-weight: bold;
-    font-size: 1rem;
+    font-size: 100%;
     color: #828282;
     margin: 0 0 40px 0;
 }
 
+.stars {
+    max-width: 100%;
+}
+
 .stars-fig{
     margin-top: 17px;
+    max-width: 100%;
 }
 
 /* portfolio */
@@ -266,19 +271,19 @@ hr{
 .potfolio_title{
     margin: 0 0 47px 0;
     font-weight: bold;
-    font-size: 2.4rem;
+    font-size: 240%;
 }
 
 .portfolio_photo{
     text-align: center;
-    width: 935px;
+    max-width: 90%;
     margin-bottom: 45px;
 }
 
 .portfolio_link{
     display: block;
     font-weight: normal;
-    font-size: 1.25rem;
+    font-size: 125%;
     margin: 0 0 99px 0;
     color: #070707;
     transition: .15s linear;
@@ -286,7 +291,7 @@ hr{
 .portfolio_link:hover{
     display: block;
     font-weight: normal;
-    font-size: 1.25rem;
+    font-size: 125%;
     margin: 0 0 99px 0;
     color: #c4c4c4;
 }
@@ -306,6 +311,7 @@ hr{
 }
 
 .img_content {
+    max-width: 100%;
     text-align: center;
     margin: 0 auto 45px;
 }
@@ -326,7 +332,7 @@ hr{
 }
 
 .cname {
-    font-size: 3.3rem;
+    font-size: 330%;
     margin: 75px 0 45px;
     text-align: center;
 }
@@ -352,7 +358,7 @@ hr{
 .contacts_link .nav_link {
     font-weight: bold;
     color: #ffffff;
-    font-size: 1.25rem;
+    font-size: 125%;
     text-decoration: none;
     margin: 0;
     animation: animBtns2 2s;
@@ -397,13 +403,13 @@ footer{
 
 .contacts{
     font-weight: bold;
-    font-size: 2.4rem;
+    font-size: 240%;
     margin: 0 0 20px 0;
 }
 
 .subt{
     font-weight: normal;
-    font-size: 1.25rem;
+    font-size: 125%;
     margin: 0 0 29px 0;
     color: #070707;
 }
@@ -414,7 +420,7 @@ footer{
     background: #000;
     color: #fff;
     font-weight: bold;
-    font-size: 1.25rem;
+    font-size: 125%;
     border-radius: 50px;
     margin: 0 0 55px 0;
     text-decoration: none;
@@ -425,7 +431,7 @@ footer{
     background: #000;
     color: rgb(139, 139, 139);
     font-weight: bold;
-    font-size: 1.25rem;
+    font-size: 125%;
     padding: 14px 44px;
     border-radius: 50px;
     margin: 0 0 55px 0;
@@ -436,21 +442,22 @@ footer{
 
 .social{
     display: flex;
-    width: 342px;
+    max-width: 342px;
     justify-content: space-between;
     margin: 0 auto 20px auto;
+    padding: 0 15px;
 }
 
 .cr{
     color: #828282;
     font-weight: normal;
-    font-size: 1rem;
+    font-size: 100%;
 }
 
 .ccr{
     color: #828282;
     font-weight: normal;
-    font-size: 1rem;
+    font-size: 100%;
     text-align: center;
     margin-top: 45px;
 }
@@ -497,28 +504,53 @@ footer{
     }
 }
 
+.mobile_pht {
+    display: none;
+    max-width: 100%;
+}
 
+.social_icon {
+    height: 40px;
+    max-width: 100%;
+}
 
 /* Медиазапросы */
+@media screen and (max-width: 1200px) {
+    .container {
+        max-width: 950px;
+        flex-wrap: wrap;
+        padding: 0 15px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .container {
+        max-width: 750px;
+        flex-wrap: wrap;
+        padding: 0 15px;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .container {
         margin: 0 auto;
-        max-width: 123.1%;
+        max-width: 100%;
+        flex-wrap: wrap;
+        padding: 0 15px;
     }
     
     .denis_pht {
-        width: 768px;
         margin: 0 auto;
     }
 
     .portfolio_photo{
         text-align: center;
-        width: 768px;
+        max-width: 90%;
         margin-bottom: 45px;
     }
 
     .portfolio{
-        width: 100%;
+        max-width: 100%;
         height: 100%;
         margin: 0 auto;
         padding: 103px 0 0 0;
@@ -528,11 +560,11 @@ footer{
     }
 
     .about_txt{
-        font-size: 1rem;
+        font-size: 100%;
         margin-bottom: 23px;
     }
     .about_txt:last-child {
-        font-size: 1rem;
+        font-size: 100%;
         margin-bottom: 0;
     }
     .p-3 {
@@ -546,15 +578,127 @@ footer{
     .ccr {
         color: #828282;
         font-weight: normal;
-        font-size: 1rem;
+        font-size: 100%;
         text-align: center;
         margin: 45px auto 0;
     }
 
-    .portfolio_img-3, .portfolio_img-8, .portfolio_img-9 {
-        width: 768px;
-    }
     .portfolio_img {
-        width: 768px;
+        max-width: 90%;
     }
 }
+
+@media screen and (max-width: 480px) {
+    .container {
+        margin: 0 auto;
+        max-width: none;
+        padding: 0 15px;
+    }
+
+    .about{
+        height: 420px;
+        padding-top: 60px;
+        margin-bottom: 60px;
+    }
+
+    .about_wrap {
+        margin-top: 25px;
+    }
+
+    .about_img {
+        display: none;
+    }
+
+    .about_txt_wrap {
+        margin-left: 0;
+    }
+
+    .about_skills_wrap {
+        margin-top: 25px;
+    }
+
+    .skills_title {
+        margin-bottom: 15px;
+    }
+
+    .skills_sub {
+        margin-bottom: 45px;
+    }
+
+    .programs_wrap {
+        margin-bottom: 90px;
+    }
+
+    .portfolio {
+        padding-top: 40px;
+    }
+
+    .nav {
+        height: 48px;
+    }
+
+    .nav_link{
+        font-size: 10px;
+    }
+
+    .name {
+        font-size: 29px;
+    }
+
+    .name_con {
+        display: block;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .who {
+        margin: 10px 0;
+    }
+
+    .denis_pht {
+        display: none;
+    }
+
+    .mobile_pht {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .language {
+        display: none;
+    }
+
+    .portfolio_img, .portfolio_photo {
+        max-width: 90%;
+        margin-bottom: 10px;
+    } 
+
+    .img_content .portfolio_link {
+        margin: 0;
+        font-size: 13px;
+    }
+    .portfolio_link:last-child {
+        margin: 0;
+        font-size: 13px;
+    }
+
+    .cname {
+        font-size: 29px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    .btns_wrapper {
+        display: flex;
+        justify-content: center;
+    }
+
+    footer {
+        padding: 50px 0;
+    }
+
+    .ccr {
+        margin-top: 20px;
+    }
+}
+
