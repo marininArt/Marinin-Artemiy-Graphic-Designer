@@ -456,7 +456,7 @@ footer{
     font-weight: normal;
     font-size: 100%;
     text-align: center;
-    margin-top: 45px;
+    margin: 45px auto 0;
 }
 
 .icons{
