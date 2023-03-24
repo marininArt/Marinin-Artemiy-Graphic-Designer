@@ -26,7 +26,7 @@ body{
 .nav_link{
     font-weight: bold;
     color: #828282;
-    font-size: 18px;
+    font-size: 1.25rem;
     text-decoration: none;
     margin: 0;
     transition: .2s linear;
@@ -36,7 +36,7 @@ body{
     font-weight: bold;
     color: #000;
     scale: 1.03;
-    font-size: 18px;
+    font-size: 1.25rem;
     text-decoration: none;
     margin: 0;
 }
@@ -55,12 +55,12 @@ hr{
 }
 
 .name{
-   font-size: 47px;
+   font-size: 3.3rem;
    margin: 0;
 }
 
 .who{
-    font-size: 18px;
+    font-size: 1.25rem
     font-weight: normal;
 }
 
@@ -81,14 +81,14 @@ hr{
     text-transform: uppercase;
     margin: 0;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 1.1rem;
     color: #828282;
 }
 .language_ru:hover{
     text-transform: uppercase;
     margin: 0;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 1.1rem;
     transition: .2s linear;
     color: #000;
     cursor: pointer;
@@ -97,7 +97,7 @@ hr{
     text-transform: uppercase;
     margin: 0;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 1.1rem;
     transition: .2s linear;
     color: rgb(31, 13, 13); 
 }
@@ -106,14 +106,14 @@ hr{
     text-transform: uppercase;
     margin: 0;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 1.1rem;
     color: #828282;
 }
 .language_eng:hover{
     text-transform: uppercase;
     margin: 0;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 1.1rem;
     transition: .2s linear;
     color: #000;
     cursor: pointer;
@@ -122,7 +122,7 @@ hr{
     text-transform: uppercase;
     margin: 0;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 1.1rem;
     transition: .2s linear;
     color: rgb(31, 13, 13);
 }
@@ -150,18 +150,18 @@ hr{
 
 .about_title{
     font-weight: bold;
-    font-size: 34px;
+    font-size: 2.4rem;
     margin: 0 0 20px 0;
 }
 
 .about_txt{
     font-weight: normal;
-    font-size: 18px;
+    font-size: 1.25rem;
     margin: 0 0 50px 0;
 }
 .about_txt:last-child{
     font-weight: normal;
-    font-size: 18px;
+    font-size: 1.25rem;
     margin: 0;
 }
 
@@ -212,14 +212,14 @@ hr{
 }
 
 .skills_title{
-    font-size: 34px;
+    font-size: 2.4rem;
     font-weight: bold;
     margin: 0 0 69px 0;
 }
 
 .skills_sub{
     font-weight: normal;
-    font-size: 18px;
+    font-size: 1.25rem;
     margin: 0 0 83px 0;
 }
 
@@ -243,7 +243,7 @@ hr{
 
 .prog_about{
     font-weight: bold;
-    font-size: 14px;
+    font-size: 1rem;
     color: #828282;
     margin: 0 0 40px 0;
 }
@@ -266,7 +266,7 @@ hr{
 .potfolio_title{
     margin: 0 0 47px 0;
     font-weight: bold;
-    font-size: 34px;
+    font-size: 2.4rem;
 }
 
 .portfolio_photo{
@@ -278,7 +278,7 @@ hr{
 .portfolio_link{
     display: block;
     font-weight: normal;
-    font-size: 18px;
+    font-size: 1.25rem;
     margin: 0 0 99px 0;
     color: #070707;
     transition: .15s linear;
@@ -286,7 +286,7 @@ hr{
 .portfolio_link:hover{
     display: block;
     font-weight: normal;
-    font-size: 18px;
+    font-size: 1.25rem;
     margin: 0 0 99px 0;
     color: #c4c4c4;
 }
@@ -326,7 +326,7 @@ hr{
 }
 
 .cname {
-    font-size: 47px;
+    font-size: 3.3rem;
     margin: 75px 0 45px;
     text-align: center;
 }
@@ -352,7 +352,7 @@ hr{
 .contacts_link .nav_link {
     font-weight: bold;
     color: #ffffff;
-    font-size: 18px;
+    font-size: 1.25rem;
     text-decoration: none;
     margin: 0;
     animation: animBtns2 2s;
@@ -397,13 +397,13 @@ footer{
 
 .contacts{
     font-weight: bold;
-    font-size: 34px;
+    font-size: 2.4rem;
     margin: 0 0 20px 0;
 }
 
 .subt{
     font-weight: normal;
-    font-size: 18px;
+    font-size: 1.25rem;
     margin: 0 0 29px 0;
     color: #070707;
 }
@@ -414,7 +414,7 @@ footer{
     background: #000;
     color: #fff;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 1.25rem;
     border-radius: 50px;
     margin: 0 0 55px 0;
     text-decoration: none;
@@ -425,7 +425,7 @@ footer{
     background: #000;
     color: rgb(139, 139, 139);
     font-weight: bold;
-    font-size: 18px;
+    font-size: 1.25rem;
     padding: 14px 44px;
     border-radius: 50px;
     margin: 0 0 55px 0;
@@ -444,13 +444,13 @@ footer{
 .cr{
     color: #828282;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 1rem;
 }
 
 .ccr{
     color: #828282;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 1rem;
     text-align: center;
     margin-top: 45px;
 }
@@ -528,11 +528,11 @@ footer{
     }
 
     .about_txt{
-        font-size: 14px;
+        font-size: 1rem;
         margin-bottom: 23px;
     }
     .about_txt:last-child {
-        font-size: 14px;
+        font-size: 1rem;
         margin-bottom: 0;
     }
     .p-3 {
@@ -546,7 +546,7 @@ footer{
     .ccr {
         color: #828282;
         font-weight: normal;
-        font-size: 14px;
+        font-size: 1rem;
         text-align: center;
         margin: 45px auto 0;
     }
