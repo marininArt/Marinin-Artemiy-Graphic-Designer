@@ -154,12 +154,12 @@ hr{
 
 .about_txt{
     font-weight: normal;
-    font-size: 18px;
+    font-size: 16px;
     margin: 0 0 50px 0;
 }
 .about_txt:last-child{
     font-weight: normal;
-    font-size: 18px;
+    font-size: 16px;
     margin: 0;
 }
 
